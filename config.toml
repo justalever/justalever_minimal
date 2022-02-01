@@ -1,0 +1,45 @@
+baseURL = "https://justalever.com"
+title = "Andy Leverenz"
+theme = "etch"
+languageCode = "en-US"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  description = "Andy Leverenz – Product Designer and Developer"
+  copyright = "Copyright © 2022 Andy Leverenz"
+  dark = "auto"
+  highlight = true
+
+[menu]
+  [[menu.main]]
+    identifier = "articles"
+    name = "articles"
+    title = "articles"
+    url = "/articles/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "contact"
+    title = "contact"
+    url = "/contact/"
+    weight = 20
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  # Allow HTML in Markdown
+  unsafe = true
+
+  [markup.tableOfContents]
+    ordered = true
