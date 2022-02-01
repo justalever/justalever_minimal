@@ -1,0 +1,15 @@
+<header id="banner">
+  <h2>
+    <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    <p class="aka">a.k.a. justalever</p>
+  </h2>
+  <nav>
+    <ul>
+      {{ range .Site.Menus.main.ByWeight -}}
+      <li>
+          {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>{{ .Post }}
+      </li>
+      {{- end }}
+    </ul>
+  </nav>
+</header>

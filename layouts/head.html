@@ -1,0 +1,51 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{ with .Site.Params.description -}}
+  <meta name="description" content="{{ . }}">
+  {{ end }}
+
+  {{ printf `<link rel="alternate icon" href="%s">` ("favicon.ico" | absURL) | safeHTML }}
+
+  {{ printf `<link rel="icon" href="%s">` ("favicon.svg" | absURL) | safeHTML }}
+
+  {{ printf `<link rel="apple-touch-icon" sizes="180x180" href="%s">` ("apple-touch-icon.png" | absURL) | safeHTML }}
+
+  {{ printf `<link rel="icon" type="image/png" sizes="32x32" href="%s">` ("favicon-32x32.png" | absURL) | safeHTML }}
+
+  {{ printf `<link rel="icon" type="image/png" sizes="16x16" href="%s">` ("favicon-16x16.png" | absURL) | safeHTML }}
+
+  {{ printf `<link rel="manifest" href="%s">` ("site.webmanifest" | absURL) | safeHTML }}
+
+  {{ printf `<link rel="manifest" href="%s">` ("site.webmanifest" | absURL) | safeHTML }}
+
+  {{ printf `<link rel="mask-icon" href="%s" color="#5bbad5">` ("safari-pinned-tab.svg" | absURL) | safeHTML }}
+
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+
+  {{ with .OutputFormats.Get "rss" -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+
+  {{ $resources := slice -}}
+
+  {{ $resources = $resources | append (resources.Get "css/main.css") -}}
+
+  {{ $resources = $resources | append (resources.Get "css/min770px.css") -}}
+
+  {{ $dark := .Site.Params.dark | default "auto" -}}
+  {{ if not (eq $dark "off") -}}
+      {{ $resources = $resources | append (resources.Get "css/dark.css" | resources.ExecuteAsTemplate "dark.css" .) -}}
+  {{ end -}}
+
+  {{ if .Site.Params.highlight -}}
+      {{ $resources = $resources | append (resources.Get "css/syntax.css") -}}
+  {{ end -}}
+
+  {{ $css := $resources | resources.Concat "css/style.css" | minify }}
+  {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
+
+  <title>{{ .Title }}</title>
+</head>
