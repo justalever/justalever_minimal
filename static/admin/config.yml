@@ -19,7 +19,7 @@ collections:
   - name: "contact"
     label: "Contact"
     folder: "content/contact"
-    create: true
+    create: false
     slug: "contact"
     editor:
       preview: false
