@@ -16,11 +16,52 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "about"
+    label: "About"
+    folder: "content/about"
+    create: true
+    slug: "about"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "contact"
     label: "Contact"
     folder: "content/contact"
-    create: false
+    create: true
     slug: "contact"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "failures"
+    label: "Failure"
+    folder: "content/failures"
+    create: true
+    slug: "failures"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "projects"
+    label: "Project"
+    folder: "content/projects"
+    create: true
+    slug: "projects"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "ideas"
+    label: "Idea"
+    folder: "content/ideas"
+    create: true
+    slug: "ideas"
     editor:
       preview: false
     fields:
