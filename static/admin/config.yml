@@ -6,7 +6,7 @@ public_folder: /img
 publish_mode: editorial_workflow
 collections:
   - name: "articles"
-    label: "Article"
+    label: "✍️ Article"
     folder: "content/articles"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -18,7 +18,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "about"
-    label: "About"
+    label: "👀 About"
     folder: "content/about"
     create: true
     slug: "about"
@@ -28,7 +28,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "contact"
-    label: "Contact"
+    label: "✉️ Contact"
     folder: "content/contact"
     create: true
     slug: "contact"
@@ -38,7 +38,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "failures"
-    label: "Failure"
+    label: "⚰️ Product Graveyard"
     folder: "content/failures"
     create: true
     slug: "failures"
@@ -48,7 +48,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "projects"
-    label: "Project"
+    label: "👨‍💻 Project"
     folder: "content/projects"
     create: true
     slug: "projects"
@@ -58,7 +58,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "ideas"
-    label: "Idea"
+    label: "💡 Idea"
     folder: "content/ideas"
     create: true
     slug: "ideas"
