@@ -1,5 +1,5 @@
 ---
-title: "Fall in Love With Being Wrong"
+title: "Fall in love with being wrong"
 date: 2022-03-29T09:26:46-05:00
 ---
 
