@@ -6,7 +6,11 @@ Some new stuff I'm considering focusing on.
 
 💡 Simple email capture API similar to Netlify forms but unbundled.
 
+💡 Testosterone grader utility. Grade your symptoms and get help with sponsored hormone clinics.
+
 💡 Direct booking tools for Airbnb hosts (I am one).
+
+💡 Private community/network/store for Airbnb hosts to get deals on common products/services they need.
 
 💡 More tools and courses for the Ruby on Rails community.
 
