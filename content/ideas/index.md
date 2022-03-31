@@ -4,6 +4,8 @@ title: "💡 Ideas"
 
 Some new stuff I'm considering focusing on.
 
+💡 Simple email capture API similar to Netlify forms but unbundled.
+
 💡 Direct booking tools for Airbnb hosts (I am one).
 
 💡 More tools and courses for the Ruby on Rails community.
