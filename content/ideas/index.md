@@ -10,6 +10,8 @@ Some new stuff I'm considering focusing on.
 
 💡 Direct booking tools for Airbnb hosts (I am one).
 
+💡 A newsletter and app aimed at helping people find and aquire short-term rental properties that actually make money.
+
 💡 Private community/network/store for Airbnb hosts to get deals on common products/services they need.
 
 💡 More tools and courses for the Ruby on Rails community.
