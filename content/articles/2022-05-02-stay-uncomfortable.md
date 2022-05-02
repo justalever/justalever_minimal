@@ -13,4 +13,4 @@ There is something to be said for taking a quantitative approach toward success.
 
 Most of the time you don't come out on top but then there's that one home run that makes it all worthwhile.
 
-Stay the course.
+Stay the course. Stay uncomfortable.
