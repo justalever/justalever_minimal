@@ -1,13 +1,18 @@
 <header id="banner">
-  <h2>
-    <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-    <p class="aka">a.k.a. justalever</p>
-  </h2>
+  <div class="intro">
+    <a class="intro-img" href="{{ .Site.BaseURL }}">
+      <img src="https://f001.backblazeb2.com/file/justalever/andy.jpeg" alt="Andy Leverenz" />
+    </a>
+    <h2>
+      <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+      <p class="aka">a.k.a. justalever</p>
+    </h2>
+  </div>
   <nav>
     <ul>
       {{ range .Site.Menus.main.ByWeight -}}
       <li>
-          {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>{{ .Post }}
+        {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>{{ .Post }}
       </li>
       {{- end }}
     </ul>

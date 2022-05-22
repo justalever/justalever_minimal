@@ -22,6 +22,19 @@ body {
   height: 100%;
 }
 
+.intro {
+  display: flex;
+  align-items: start;
+}
+
+.intro .intro-img,
+.intro img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
 .intro-copy p {
   font-size: 1.65rem !important;
 }
@@ -76,8 +89,23 @@ body {
 header#banner {
   margin: 25px 0;
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  header#banner {
+    display: block;
+    margin: 35px 0;
+  }
+
+  header#banner a {
+    font-size: 2rem;
+  }
+
+  .intro-copy .intro-list li a {
+    font-size: 2rem;
+  }
 }
 
 header#banner a {
