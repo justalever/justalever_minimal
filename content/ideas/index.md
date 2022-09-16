@@ -2,7 +2,11 @@
 title: "💡 Ideas"
 ---
 
-Some new stuff I'm considering focusing on.
+#### Some stuff that comes to mind while I brainstorm (usually on long ass walks)
+
+💡 Productized product design - Fully async saas-based product design
+
+💡 Producthunt for content "Contenthunt" - Top articles and buzz around the web per industry.
 
 💡 Simple email capture API similar to Netlify forms but unbundled.
 
@@ -27,3 +31,25 @@ Some new stuff I'm considering focusing on.
 💡 Something to help folks home school more easily.
 
 💡 Headless newsletter platform - API and CLI driven. Bring your own templates and content. Market to developers/techie folk.
+
+💡 Job board for popular creators who need help
+
+💡 Zillow for short-term rental properties
+
+💡 Work camper job board - People that live in and manage other peoples property
+
+💡 Testosterone clinic recommendation engine
+
+💡 Note to self app - Message yourself stuff you will forget if you don't. A daily digest gets sent to remind you.
+
+💡 Couples note app - Write a daily letter to your busy spouse or partner
+
+💡 Redesign and submit a pull request for the design of guides.rubyonrails.org + add search
+
+
+
+## Boring businesses
+
+🚙 Car washes - I'm currently underwriting a local car wash
+
+🏡 Real estate - I own and operate 2 short-term rentals and plan to scale my portfolio to 10+ 🤷‍♂️
