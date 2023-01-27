@@ -2,6 +2,6 @@
 title: "Get in touch"
 ---
 
-Thanks for your interest. I'm currently **not** looking for full-time roles, but if you have contract work (design or development) and need a hand, please [email me](mailto:hey@justalever.com).
+Thanks for your interest. [Hire me](mailto:hey@justalever.com) for product design or development.
 
-Want to see my past work? [contact me](mailto:hey@justalever) for a private link to my portfolio. I also have some public design work on [dribbble](https://dribbble.com/justalever).
+Want to see my past work? [contact me](mailto:hey@justalever) for a private link to my portfolio. I also have some public design work on [Dribbble](https://dribbble.com/justalever).

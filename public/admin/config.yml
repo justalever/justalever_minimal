@@ -1,0 +1,71 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: static/img
+public_folder: /img
+publish_mode: editorial_workflow
+collections:
+  - name: "articles"
+    label: "✍️ Article"
+    folder: "content/articles"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "about"
+    label: "👀 About"
+    folder: "content/about"
+    create: true
+    slug: "about"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "contact"
+    label: "✉️ Contact"
+    folder: "content/contact"
+    create: true
+    slug: "contact"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "failures"
+    label: "⚰️ Product Graveyard"
+    folder: "content/failures"
+    create: true
+    slug: "failures"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "projects"
+    label: "👨‍💻 Project"
+    folder: "content/projects"
+    create: true
+    slug: "projects"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "ideas"
+    label: "💡 Idea"
+    folder: "content/ideas"
+    create: true
+    slug: "ideas"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+show_preview_links: true
+search: true
