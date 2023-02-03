@@ -32,4 +32,4 @@ An example of this is the government-sponsored 401k plan. If you go deep into th
 
 There has been a 20%+ drop in some market sectors, so those looking to start living off these funds just got a slap in the face. The market will likely rebound, but with the roller coaster effect, you have to begin to wonder if your money could be doing much better good elsewhere or in "atypical" investments.
 
-In short, the more volatility I see, the more I will be an _atypical_ investor and learner. Observing what's _typical_ today makes me consider what will be best for my kids when they are of working age. The _typical_ path of going to school, getting good grades, going to college, and getting a good job is losing its luster.
+In short, the more volatility I see, the more I will be an _atypical_ investor and learner. Observing what's _typical_ today makes me consider what will be best for my kids when they are of working age. The _typical_ path of going to school, getting good grades, going to college, and getting a good job is losing its luster and I think the public is finally coming around to realize it.
