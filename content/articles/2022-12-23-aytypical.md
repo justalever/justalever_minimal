@@ -4,7 +4,7 @@ date: 2022-12-23T09:40:25-06:00
 draft: false
 ---
 
-I did a little exercise recently to pick a few words to describe who I am and how I operate. I jotted down words that I would call "standard" for most professionals, but then I wrote the word **atypical**. It's such a good descriptor I can't even begin to explain it.
+I did a little exercise recently to pick a few words to describe who I am and how I operate. I jotted down words that I would call "standard" for most professionals, but then I wrote the word **atypical**.
 
 ### Against the grain
 
