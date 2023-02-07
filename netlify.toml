@@ -1,2 +1,14 @@
 [context.production.environment]
   HUGO_VERSION = "0.83.1"
+
+[[redirects]]
+from = "https://justalever.com/foli"
+to = "https://alever.notion.site/Andy-Leverenz-9032e9b6ff254ef88c34e8fe1b07caf5"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://justalever.com/resume"
+to = "https://alever.notion.site/Resume-c03a61af873a4ed4be5b4a45afe943b6"
+status = 301
+force = true
