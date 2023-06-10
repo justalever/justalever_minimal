@@ -46,10 +46,12 @@ title: "💡 Ideas"
 
 💡 Redesign and submit a pull request for the design of guides.rubyonrails.org + add search
 
-
-
 ## Boring businesses
 
 🚙 Car washes - I'm currently underwriting a local car wash
 
-🏡 Real estate - I own and operate 2 short-term rentals and plan to scale my portfolio to 10+ 🤷‍♂️
+🏡 Real estate
+
+- I own and operate 3 short-term rentals and plan to scale my portfolio to 10+ 🤷‍♂️
+
+- I flip land at the moment. This entails using marketing and sales (some of my background) to find land at 30 cents on the dollar to turn around and sell it at about 90 cents retail.
