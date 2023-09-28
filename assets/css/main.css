@@ -409,3 +409,11 @@ footer#footer li a {
   color: #777;
   text-decoration: none;
 }
+
+.btn {
+  background: white;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  display: block;
+}
