@@ -8,6 +8,12 @@ status = 301
 force = true
 
 [[redirects]]
+from = "https://justalever.com/work"
+to = "https://work.justalever.com"
+status = 301
+force = true
+
+[[redirects]]
 from = "https://justalever.com/resume"
 to = "https://www.craft.me/s/6tTdmDYGFbCJiZ"
 status = 301
