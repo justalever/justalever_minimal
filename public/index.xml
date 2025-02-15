@@ -2,13 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Andy Leverenz</title>
-    <link>https://justalever.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Andy Leverenz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 08 Feb 2023 05:31:22 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 07 Dec 2023 11:01:28 -0600</lastBuildDate>
     
-	<atom:link href="https://justalever.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     
     
     

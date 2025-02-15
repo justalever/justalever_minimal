@@ -2,56 +2,77 @@
 title: "💡 Ideas"
 ---
 
-#### Some stuff that comes to mind while I brainstorm (usually on long ass walks)
+_These often come to me when I'm in the shower, on a walk,or disconnected from the internet. I'm not sure if I'll ever build any of these, but I'm curious to see if I can get enough conviction to build them._
 
-💡 Productized product design - Fully async saas-based product design
+---
 
-💡 Producthunt for content "Contenthunt" - Top articles and buzz around the web per industry.
+**Micro course host SaaS** - Simple course creation and hosting SaaS. Payments, API, and more.
 
-💡 Simple email capture API similar to Netlify forms but unbundled.
+**QuickBooks Apps** - Integrations with other tools. Build a bridge, provide value, and charge monthly. Build a small suite of these. [Started one so far](https://calenbooks.com).
 
-💡 Testosterone grader utility. Grade your symptoms and get help with sponsored hormone clinics.
+**Customer review aggregator and management** - A tool for businesses to manage customer reviews and feedback. Collect, manage, and showcase reviews that create a lasting impact and drive sales. Embeddable widgets, API, and more.
 
-💡 Direct booking tools for Airbnb hosts (I am one).
+**AI Etsy Mockup Generator** - Automate mockups for Etsy shops with AI tools.
 
-💡 A newsletter and app aimed at helping people find and aquire short-term rental properties that actually make money.
+**Charts AI builder** - Somehow make a useful chart generator using AI prompts. Embeddable and shareable using a simple API. Examples: Finance, Medical, Almanac, Historical, etc.
 
-💡 Private community/network/store for Airbnb hosts to get deals on common products/services they need.
+**Dating app for Homeschooling families and students** - Either a dating app or forum for homeschoolers. Build a publication and platform for home schooling families and students to have a space to network or mingle.
 
-💡 More tools and courses for the Ruby on Rails community.
+**Niche Co-op Software** - Unbundle Facebook groups and make it niched to dominant groups like homeschoolers, homesteaders, preppers, etc...
 
-💡 A job board that only features companies who share salary ranges.
+**Free speech Reddit** - Following the X trend, make a reddit for people who don't want to be shadow banned all the time.
 
-💡 Fitness coach website builder with subscription model built in.
+**Dutch auction website builder** - Build a website builder that uses a Dutch auctions to sell a website or digital assets.
 
-💡 Product design newsletter
+**Bitcoin invoice generator** - A simple tool to generate invoices for Bitcoin payments on Lightning. Charge a carry fee per invoice.
 
-💡 A designer index. Search for and hire designers.
+**Productized product design** - Fully async saas-based product design
 
-💡 Something to help folks home school more easily.
+**Direct booking tools for Airbnb hosts** - A better website builder for Airbnb hosts who want to automate their booking process and not be tied to Airbnb or VRBO.
 
-💡 Headless newsletter platform - API and CLI driven. Bring your own templates and content. Market to developers/techie folk.
+**Headless newsletter platform** - API and CLI driven. Bring your own templates and content. Market to developers/techie folk.
 
-💡 Job board for popular creators who need help
+**Zillow for short-term rental properties** - Easier buying and research process for investors looking to buy an existing STR property.
 
-💡 Zillow for short-term rental properties
+**Note to self app** - Text message yourself stuff you will forget if you don't. A daily digest gets sent to remind you.
 
-💡 Work camper job board - People that live in and manage other peoples property
+**Non-bloated Dropbox alternative** - A simple file sharing tool that doesn't have a ton of features on purpose. Margins here are slim but could appeal to minimalists. Would be a quanity play.
 
-💡 Testosterone clinic recommendation engine
+**Gamification as a service (GaaS)** - A customer can create an account, upload criteria for the gamification strategy, and then hook into the API, which would deliver events back to them to provide details on the front end. It's effectively a gamification API you don't have to build but can customize and extend.
 
-💡 Note to self app - Message yourself stuff you will forget if you don't. A daily digest gets sent to remind you.
+**Dribbble for recipes/food** - A place to share recipes and get feedback. Unbundle foodie posts from instagram and make it a community/resource to cook dope new stuff.
 
-💡 Couples note app - Write a daily letter to your busy spouse or partner
+**MVP Scientist** - A productized service that helps you build a minimum viable product for a flat rate.
 
-💡 Redesign and submit a pull request for the design of guides.rubyonrails.org + add search
+**X messaging customer service SaaS** - A customer service tool that allows you to create a chatbot that can answer questions and provide customer service via X.
 
-## Boring businesses
+**Land flipping website builder** - A website builder for land flippers.
 
-🚙 Car washes - I'm currently underwriting a local car wash
+## Obvious
 
-🏡 Real estate
+**Buy and hold Bitcoin** - Probably the easiest way to not save in broken money and have wealth over time.
 
-- I own and operate 3 short-term rentals and plan to scale my portfolio to 10+ 🤷‍♂️
+## Directories
 
-- I flip land at the moment. This entails using marketing and sales (some of my background) to find land at 30 cents on the dollar to turn around and sell it at about 90 cents retail.
+- School shootings directory
+- Homeschooling directory
+- Prepper directory
+- Homesteading directory
+- Crypto directory
+- Bitcoin directory
+- Shareholder letter directory for companies
+- More TBD
+
+## E-commmerce
+
+**Super high quality homeschool planners** - Homeschooling is on the rise. We do for our kids and there are obvious gaps in the market.
+
+## IRL/Brick and mortar
+
+**Mobility scooter rentals** - Convenient and Affordable Scooter Rentals in [some city/county]. Rent a mobility scooter for a day, a week, or longer. Have a fleet and hire a driver.
+
+**Mobile Oil Changes** - A mobile oil change service that comes to you.
+
+# Chrome Extensions
+
+**Chat GPT themer** - A chrome extension that allows you to change the theme of Chat GPT. Stupid simple.

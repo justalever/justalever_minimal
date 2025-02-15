@@ -9,7 +9,9 @@ If you'd like to see my product design portfolio [please contact me](/contact).
 
 [Rails UI](https://railsui.com) – Professionally designed UI components & templates made exclusively for Ruby on Rails.
 
-[Web-Crunch.com](https://web-crunch.com) - a publication for the independent web developer, designer, entrepreneur, and maker who aspires to solve many of their own problems with design + code.
+[webcrunch.com](https://webcrunch.com) - a publication and [YouTube channel](https://youtube.com/webcrunch) for the independent web developer, designer, entrepreneur, and maker who aspires to solve many of their own problems with design + code.
+
+[Hello Hotwire](https://hellohotwire.com) - Master the art of Hotwire & Ruby on Rails with free step-by-step modules and premium build-alongs.
 
 [Hello Rails](https://hellorails.io) - A modern course designed to help you start using and understanding Ruby on Rails fast.
 

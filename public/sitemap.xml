@@ -2,90 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://justalever.com/articles/2023-02-08-430/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2023-12-07T11:01:28-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/articles/</loc>
+    <lastmod>2023-12-07T11:01:28-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/articles/the-business-of-newsletters/</loc>
+    <lastmod>2023-12-07T11:01:28-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/articles/2023-02-08-430/</loc>
     <lastmod>2023-02-08T05:31:22-06:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/</loc>
-    <lastmod>2023-02-08T05:31:22-06:00</lastmod>
-  </url><url>
-    <loc>https://justalever.com/articles/</loc>
-    <lastmod>2023-02-08T05:31:22-06:00</lastmod>
-  </url><url>
-    <loc>https://justalever.com/articles/2023-02-06-adventurous/</loc>
+    <loc>http://localhost:1313/articles/2023-02-06-adventurous/</loc>
     <lastmod>2023-02-06T15:54:58-06:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/2022-12-23-aytypical/</loc>
+    <loc>http://localhost:1313/articles/2022-12-23-aytypical/</loc>
     <lastmod>2022-12-23T09:40:25-06:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/2022-09-27-doing-what-scares-you/</loc>
+    <loc>http://localhost:1313/articles/2022-09-27-doing-what-scares-you/</loc>
     <lastmod>2022-09-27T08:22:14-05:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/2022-07-26-keep-going-it-just-gets-better/</loc>
+    <loc>http://localhost:1313/articles/2022-07-26-keep-going-it-just-gets-better/</loc>
     <lastmod>2022-07-26T21:51:10-05:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/2022-05-22-affirmations/</loc>
+    <loc>http://localhost:1313/articles/2022-05-22-affirmations/</loc>
     <lastmod>2022-05-22T12:12:37-05:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/2022-05-02-stay-uncomfortable/</loc>
+    <loc>http://localhost:1313/articles/2022-05-02-stay-uncomfortable/</loc>
     <lastmod>2022-05-02T13:02:00-05:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/04-25-2022-productizing-yourself/</loc>
+    <loc>http://localhost:1313/articles/04-25-2022-productizing-yourself/</loc>
     <lastmod>2022-04-25T10:25:27-05:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/2022-03-29-fall-in-love-with-being-wrong/</loc>
+    <loc>http://localhost:1313/articles/2022-03-29-fall-in-love-with-being-wrong/</loc>
     <lastmod>2022-03-29T09:26:46-05:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/2022-03-11-investing-in-times-of-inflation/</loc>
+    <loc>http://localhost:1313/articles/2022-03-11-investing-in-times-of-inflation/</loc>
     <lastmod>2022-03-11T08:21:15-06:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/2022-03-07-off-grid-dreams/</loc>
+    <loc>http://localhost:1313/articles/2022-03-07-off-grid-dreams/</loc>
     <lastmod>2022-03-07T10:04:51-06:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/2022-02-27-on-bitcoin/</loc>
+    <loc>http://localhost:1313/articles/2022-02-27-on-bitcoin/</loc>
     <lastmod>2022-02-27T13:16:34-06:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/2022-02-23-enjoying-those-break-throughs/</loc>
+    <loc>http://localhost:1313/articles/2022-02-23-enjoying-those-break-throughs/</loc>
     <lastmod>2022-02-23T08:29:51-06:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/2022-02-19-freedoms/</loc>
+    <loc>http://localhost:1313/articles/2022-02-19-freedoms/</loc>
     <lastmod>2022-02-19T14:07:34-06:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/2022-02-14-boredom-brings-innovation/</loc>
+    <loc>http://localhost:1313/articles/2022-02-14-boredom-brings-innovation/</loc>
     <lastmod>2022-02-14T09:39:25-06:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/2022-02-11-reasons-why-people-by-products/</loc>
+    <loc>http://localhost:1313/articles/2022-02-11-reasons-why-people-by-products/</loc>
     <lastmod>2022-02-11T08:24:41-06:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/2022-02-08-defining-a-market-to-sell-to/</loc>
+    <loc>http://localhost:1313/articles/2022-02-08-defining-a-market-to-sell-to/</loc>
     <lastmod>2022-02-08T08:57:16-06:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/2022-02-07-freelancing-while-working-fulltime/</loc>
+    <loc>http://localhost:1313/articles/2022-02-07-freelancing-while-working-fulltime/</loc>
     <lastmod>2022-02-07T07:48:32-06:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/2022-02-04-what-is-your-why/</loc>
+    <loc>http://localhost:1313/articles/2022-02-04-what-is-your-why/</loc>
     <lastmod>2022-02-04T15:45:33+00:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/2022-02-03-how-i-work-remotely/</loc>
+    <loc>http://localhost:1313/articles/2022-02-03-how-i-work-remotely/</loc>
     <lastmod>2022-02-03T15:50:15+00:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/02-02-2022-pick-a-fight/</loc>
+    <loc>http://localhost:1313/articles/02-02-2022-pick-a-fight/</loc>
     <lastmod>2022-02-02T11:00:32-06:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/articles/02-01-2022-scaling-a-side-project-to-millions-of-users/</loc>
+    <loc>http://localhost:1313/articles/02-01-2022-scaling-a-side-project-to-millions-of-users/</loc>
     <lastmod>2022-02-01T13:23:52-06:00</lastmod>
   </url><url>
-    <loc>https://justalever.com/failures/</loc>
+    <loc>http://localhost:1313/failures/</loc>
   </url><url>
-    <loc>https://justalever.com/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
   </url><url>
-    <loc>https://justalever.com/ideas/</loc>
+    <loc>http://localhost:1313/ideas/</loc>
   </url><url>
-    <loc>https://justalever.com/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://justalever.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://justalever.com/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>https://justalever.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
