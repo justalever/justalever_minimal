@@ -1,6 +1,7 @@
 {
   "name": "justalever",
   "private": true,
+  "packageManager": "yarn@4.11.0",
   "scripts": {
     "build": "hugo --minify --cleanDestinationDir",
     "dev": "yarn build && wrangler dev",
