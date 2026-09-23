@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Rebuild on New Year's Day so the footer's copyright year rolls over.
+  schedule:
+    - cron: "0 6 1 1 *"
 
 concurrency:
   group: deploy

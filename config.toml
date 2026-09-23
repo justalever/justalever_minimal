@@ -8,7 +8,7 @@ pygmentsUseClasses = true
 
 [params]
   description = "Andy Leverenz – Product Designer and Engineer"
-  copyright = "Copyright © 2025 Andy Leverenz"
+  author = "Andy Leverenz"
   dark = "auto"
   highlight = true
 
