@@ -1,0 +1,12 @@
+{
+  "name": "justalever",
+  "private": true,
+  "scripts": {
+    "build": "hugo --minify --cleanDestinationDir",
+    "dev": "yarn build && wrangler dev",
+    "deploy": "yarn build && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.137.0"
+  }
+}

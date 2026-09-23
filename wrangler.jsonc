@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "justalever",
+  // Pinned so a deploy can never land in one of the other accounts this login can reach.
+  "account_id": "035234460454e5562c851237f8b55446",
+  "compatibility_date": "2026-09-23",
+  "main": "worker.js",
+  // Served only on the custom domains below; no *.workers.dev URL.
+  "workers_dev": false,
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    // The worker handles the www and path redirects before any asset is served.
+    "run_worker_first": true
+  },
+  "routes": [
+    { "pattern": "justalever.com", "custom_domain": true },
+    { "pattern": "www.justalever.com", "custom_domain": true }
+  ]
+}

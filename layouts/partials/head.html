@@ -47,8 +47,5 @@
 {{ $css := $resources | resources.Concat "css/style.css" | minify }}
 {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
 
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-
 <title>{{ .Title }}</title>
 </head>
