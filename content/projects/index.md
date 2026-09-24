@@ -7,6 +7,8 @@ If you'd like to see my product design portfolio [please contact me](/contact).
 
 #### Current projects
 
+[HomeschoolFox](https://homeschoolfox.com) - Homeschool logging software for families.
+
 [Rails UI](https://railsui.com) – Professionally designed UI components & templates made exclusively for Ruby on Rails.
 
 [webcrunch.com](https://webcrunch.com) - a publication and [YouTube channel](https://youtube.com/webcrunch) for the independent web developer, designer, entrepreneur, and maker who aspires to solve many of their own problems with design + code.

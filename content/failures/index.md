@@ -4,9 +4,19 @@ title: "⚰️ The Product Graveyard"
 
 Product ideas that either sucked, people didn't want, or I lost interest in. Some I spent months on and others were done in a weekend.
 
-_Last updated Feb 15. 2025_
+_Last updated Sep 24. 2026_
 
-👎 [Homeschool logging software](https://app.homeschoolfox.com) - SaaS - Still in operation but offering for free.
+👎 PoolFlow - Pool services booking widget and checkout - SaaS
+
+👎 Local newsletter - Content/Sponsorships
+
+👎 Yardbook/Jobber competitor - SaaS
+
+👎 A private, local-first (offline) vault for the information a family cannot afford to lose - SaaS
+
+👎 Headless newsletter engine - Think Beehiiv without the GUI - SaaS
+
+👎 SurveyGrok - Typeform meets surveys with a bunch of integrations - SaaS
 
 👎 Longevity quiz tool - Content/Ads
 
@@ -20,7 +30,7 @@ _Last updated Feb 15. 2025_
 
 👎 Direct booking tool for Airbnb hosts - SaaS - (Lost interest)
 
-👎 Short term rentals - IRL - (Still operating but will be exiting over time.)
+👎 Short-term rental investments - IRL - Sold everything in 2025. Life is more peaceful now.
 
 👎 Land flipping business - IRL
 
