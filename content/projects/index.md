@@ -11,13 +11,13 @@ If you'd like to see my product design portfolio [please contact me](/contact).
 
 [Rails UI](https://railsui.com) – Professionally designed UI components & templates made exclusively for Ruby on Rails.
 
+#### Past stuff
+
 [webcrunch.com](https://webcrunch.com) - a publication and [YouTube channel](https://youtube.com/webcrunch) for the independent web developer, designer, entrepreneur, and maker who aspires to solve many of their own problems with design + code.
 
 [Hello Hotwire](https://hellohotwire.com) - Master the art of Hotwire & Ruby on Rails with free step-by-step modules and premium build-alongs.
 
 [Hello Rails](https://hellorails.io) - A modern course designed to help you start using and understanding Ruby on Rails fast.
-
-#### Past stuff
 
 [LUXD: Learn User Experience Design](https://web-crunch.com/products/luxd-product) – My second book and digital product following the stairstep approach. It sold a decent amount of copies which were my first internet dollars made. A cool milestone.
 
