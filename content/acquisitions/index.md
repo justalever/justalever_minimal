@@ -36,6 +36,6 @@ approach:
 
 I’ve spent more than 10 years designing and building software, and I currently work at Patreon. I like understanding how something works, finding the friction, and making it easier for people to use.
 
-I’ve also run two short-term rentals, managing teams, day-to-day operations, and finances. That work taught me to pay attention to the less visible parts of a business: clear responsibilities, reliable processes, and following through.
+I’ve also run three short-term rentals, managing teams, day-to-day operations, and finances. That work taught me to pay attention to the less visible parts of a business: clear responsibilities, reliable processes, and following through.
 
 I’m approaching this search as an individual and a first-time buyer. I’d bring product and technical experience, a habit of improving systems, and a willingness to learn from the person who knows the business best.
