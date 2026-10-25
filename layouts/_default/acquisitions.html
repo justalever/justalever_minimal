@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.LanguageCode | default "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ .Description }}">
+    <meta name="theme-color" content="#ffffff">
+    {{ if .Draft }}<meta name="robots" content="noindex, nofollow">{{ else }}<link rel="canonical" href="{{ .Permalink }}">{{ end }}
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:description" content="{{ .Description }}">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+    <link rel="alternate icon" href="{{ "favicon.ico" | relURL }}">
+    {{ $style := resources.Get "css/acquisitions.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+    <title>{{ .Title }}</title>
+  </head>
+  {{ $emailURL := printf "mailto:%s?subject=%s" .Params.email (replace (.Params.email_subject | urlquery) "+" "%20") }}
+  <body class="acquisitions">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="page-header wrap">
+      <a class="identity" href="{{ .Site.Home.RelPermalink }}" aria-label="Andy Leverenz, personal website">
+        <span class="identity-name">Andy Leverenz</span>
+        <span class="identity-handle">a.k.a. justalever</span>
+      </a>
+      <nav class="page-nav" aria-label="On this page">
+        <a href="#interests">What I’m looking for</a>
+        <a href="#about">About me</a>
+        <a class="nav-contact" href="{{ $emailURL | safeURL }}">Get in touch</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-inner wrap">
+          <div class="hero-copy">
+            <h1 id="hero-heading">{{ .Params.hero.heading }}</h1>
+            <p class="hero-introduction">{{ .Params.hero.introduction }}</p>
+            <a class="button" href="{{ $emailURL | safeURL }}">Tell me about your business</a>
+            <p class="hero-note">A simple introduction is a good place to start.</p>
+          </div>
+          <figure class="portrait">
+            <img src="{{ "andy.jpg" | relURL }}" width="400" height="400" alt="Illustrated portrait of Andy Leverenz" fetchpriority="high">
+            <figcaption>
+              <span class="portrait-name">Hi, I’m Andy.</span>
+              <span class="portrait-location">
+                <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M15.5 8c0 4-5.5 9-5.5 9S4.5 12 4.5 8a5.5 5.5 0 1 1 11 0Z"/><circle cx="10" cy="8" r="1.8"/></svg>
+                Near St. Louis, Missouri
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="interests" class="interests section-space wrap" aria-labelledby="interests-heading">
+        <div class="section-intro">
+          <h2 id="interests-heading">The kind of business I’d like to buy.</h2>
+          <p>I’m starting with online businesses where my experience can be useful. I’m open to the right local opportunity, too.</p>
+        </div>
+        <div class="interest-types">
+          {{ range .Params.interests }}
+          <div class="interest-type">
+            <h3>{{ .title }}</h3>
+            <p>{{ .description }}</p>
+          </div>
+          {{ end }}
+        </div>
+        <div class="criteria">
+          <h3 class="criteria-heading">A few things I look for</h3>
+          <dl class="criteria-list">
+            {{ range .Params.criteria }}
+            <div class="criterion">
+              <dt>{{ .title }}</dt>
+              <dd>{{ .description }}</dd>
+            </div>
+            {{ end }}
+          </dl>
+        </div>
+      </section>
+
+      <section id="about" class="about" aria-labelledby="about-heading">
+        <div class="about-inner section-space wrap">
+          <div class="about-heading">
+            <h2 id="about-heading">A builder’s background.<br>A buyer’s curiosity.</h2>
+            <a class="text-link" href="{{ .Site.Home.RelPermalink }}">More about my design &amp; development work</a>
+          </div>
+          <div class="about-copy">{{ .Content }}</div>
+        </div>
+      </section>
+
+      <section class="approach section-space wrap" aria-labelledby="approach-heading">
+        <div class="section-intro">
+          <h2 id="approach-heading">Let’s get to know<br class="desktop-break"> the business first.</h2>
+          <p>You know what it takes to run your business. I’d start by listening, with respect for your time and the work you’ve put in.</p>
+        </div>
+        <ol class="approach-list">
+          {{ range .Params.approach }}
+          <li>
+            <h3>{{ .title }}</h3>
+            <p>{{ .description }}</p>
+          </li>
+          {{ end }}
+        </ol>
+      </section>
+
+      <section id="contact" class="contact" aria-labelledby="contact-heading">
+        <div class="contact-inner wrap">
+          <div class="contact-copy">
+            <h2 id="contact-heading">Thinking about<br>what comes next?</h2>
+            <p>Send me a little about your business and what you have in mind. A link, a short description, and your timing are plenty for a first email.</p>
+            <p class="contact-note">Still figuring it out? That’s a fine place to start.</p>
+          </div>
+          <div class="contact-action">
+            <a class="email-link" href="{{ $emailURL | safeURL }}">{{ .Params.email }}<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg></a>
+            <p>You’ll be talking with me.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer wrap">
+      <p>© {{ now.Year }} Andy Leverenz</p>
+      <a href="{{ .Site.Home.RelPermalink }}">Back to justalever.com</a>
+    </footer>
+  </body>
+</html>
