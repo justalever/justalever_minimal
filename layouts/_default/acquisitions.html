@@ -40,7 +40,7 @@
             <p class="hero-note">A simple introduction is a good place to start.</p>
           </div>
           <figure class="portrait">
-            <img src="{{ "andy.jpg" | relURL }}" width="400" height="400" alt="Illustrated portrait of Andy Leverenz" fetchpriority="high">
+            <img src="{{ "andy-portrait.jpg" | relURL }}" width="400" height="600" alt="Portrait of Andy Leverenz" fetchpriority="high">
             <figcaption>
               <span class="portrait-name">Hi, I’m Andy.</span>
               <span class="portrait-location">
@@ -83,15 +83,17 @@
           <h2 id="buy-box-heading">What fits my search.</h2>
           <p>These are targets, not rigid minimums. If your business is close, a conversation is still worth it.</p>
         </div>
-        <div class="criteria">
-          <dl class="criteria-list">
-            {{ range .Params.buybox }}
-            <div class="criterion">
-              <dt>{{ .title }}</dt>
-              <dd>{{ .description }}</dd>
-            </div>
-            {{ end }}
-          </dl>
+        <div class="buybox-grid">
+          {{ range .Params.buybox }}
+          <div class="buybox-item">
+            <h3>{{ .title }}</h3>
+            <ul>
+              {{ range .items }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
         </div>
       </section>
 
