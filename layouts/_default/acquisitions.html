@@ -61,7 +61,11 @@
           {{ range .Params.interests }}
           <div class="interest-type">
             <h3>{{ .title }}</h3>
-            <p>{{ .description }}</p>
+            <ul>
+              {{ range .items }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
           </div>
           {{ end }}
         </div>
@@ -120,7 +124,11 @@
           {{ range .Params.approach }}
           <li>
             <h3>{{ .title }}</h3>
-            <p>{{ .description }}</p>
+            <ul>
+              {{ range .items }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
           </li>
           {{ end }}
         </ol>

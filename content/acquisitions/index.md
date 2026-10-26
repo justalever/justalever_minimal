@@ -13,9 +13,16 @@ hero:
   introduction: "I’m Andy, a product designer and developer near St. Louis, exploring my first business acquisition. If you’re considering a sale, I’d like to hear what you’ve built."
 interests:
   - title: "Established online businesses"
-    description: "Small software products, digital products, and other online businesses with paying customers and a useful place in their lives."
+    items:
+      - "Small software products"
+      - "Digital products"
+      - "Other online businesses with paying customers and a useful place in their lives"
   - title: "Local service businesses"
-    description: "I’m also open to businesses around St. Louis where reliable service, good systems, and strong customer relationships matter."
+    items:
+      - "Businesses around St. Louis"
+      - "Reliable service"
+      - "Good systems"
+      - "Strong customer relationships"
 criteria:
   - title: "A business that works today"
     items:
@@ -73,11 +80,18 @@ buybox:
       - "Founder-dependent agencies" 
 approach:
   - title: "Start with a conversation"
-    description: "Tell me about the business, your role, and what you’d like from a sale. We can see whether it makes sense to keep talking."
+    items:
+      - "Tell me about the business, your role, and what you’d like from a sale"
+      - "See whether it makes sense to keep talking"
   - title: "Understand the details"
-    description: "If there’s a fit, we can agree on what to share and review the finances, customers, and everyday work involved. I’ll be direct about questions and limitations."
+    items:
+      - "If there’s a fit, agree on what to share"
+      - "Review the finances, customers, and everyday work"
+      - "I’ll be direct about questions and limitations"
   - title: "Work through the handoff"
-    description: "Before moving ahead, we’d need a clear plan for the transition, including the knowledge, relationships, and responsibilities that need to transfer."
+    items:
+      - "A clear plan for the transition"
+      - "Knowledge, relationships, and responsibilities that need to transfer"
 ---
 
 I’ve spent more than 10 years designing and building software, and I currently work at Patreon. I like understanding how something works, finding the friction, and making it easier for people to use.
