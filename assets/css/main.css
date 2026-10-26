@@ -53,14 +53,17 @@ body {
   padding: 0;
 }
 
-.intro-copy .intro-list li a {
-  color: #777 !important;
+.intro-copy h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0;
 }
 
 .intro-copy .intro-list span {
   margin: 0 10px;
-  font-weight: 300;
-  color: #ddd;
+  font-weight: 400;
+  color: inherit;
 }
 
 .socials {
@@ -154,7 +157,7 @@ header#banner nav ul {
 
 header#banner nav ul li {
   display: inline;
-  margin: 0 3px;
+  margin: 0 8px;
 }
 
 header#banner nav ul li a {
