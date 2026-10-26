@@ -121,7 +121,6 @@ p { color: var(--body); }
   .section-space { padding-block: 3.5rem; }
   .section-intro, .interest-types, .criteria-list, .buybox-grid, .about-inner, .approach-list, .contact-inner { grid-template-columns: 1fr; }
   .section-intro { gap: 1.25rem; }
-  .desktop-break { display: none; }
   .interest-types { gap: 1.75rem; margin-top: 2rem; padding-block: 1.5rem; }
   .criteria { margin-top: 2rem; }
   .criteria-list { gap: 1.4rem; }
