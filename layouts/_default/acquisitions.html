@@ -78,6 +78,23 @@
         </div>
       </section>
 
+      <section id="buy-box" class="section-space wrap" aria-labelledby="buy-box-heading">
+        <div class="section-intro">
+          <h2 id="buy-box-heading">What fits my search.</h2>
+          <p>These are targets, not rigid minimums. If your business is close, a conversation is still worth it.</p>
+        </div>
+        <div class="criteria">
+          <dl class="criteria-list">
+            {{ range .Params.buybox }}
+            <div class="criterion">
+              <dt>{{ .title }}</dt>
+              <dd>{{ .description }}</dd>
+            </div>
+            {{ end }}
+          </dl>
+        </div>
+      </section>
+
       <section id="about" class="about" aria-labelledby="about-heading">
         <div class="about-inner section-space wrap">
           <div class="about-heading">

@@ -14,13 +14,6 @@ pygmentsUseClasses = true
 
 [menu]
   [[menu.main]]
-    identifier = "articles"
-    name = "articles"
-    title = "articles"
-    url = "/articles/"
-    weight = 10
-
-  [[menu.main]]
     identifier = "about"
     name = "about"
     title = "about"
