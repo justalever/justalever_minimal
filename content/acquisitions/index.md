@@ -18,13 +18,24 @@ interests:
     description: "I’m also open to businesses around St. Louis where reliable service, good systems, and strong customer relationships matter."
 criteria:
   - title: "A business that works today"
-    description: "An operating history, consistent revenue, and customers who have a reason to come back."
+    items:
+      - "An operating history"
+      - "Consistent revenue"
+      - "Customers who have a reason to come back"
   - title: "Understandable operations"
-    description: "Clear financial records and a day-to-day operation I can learn, with a realistic path to a handoff."
+    items:
+      - "Clear financial records"
+      - "A day-to-day operation I can learn"
+      - "A realistic path to a handoff"
   - title: "Room for practical improvements"
-    description: "Opportunities to improve the product, simplify workflows, or reduce repetitive work through automation."
+    items:
+      - "Improve the product"
+      - "Simplify workflows"
+      - "Reduce repetitive work through automation"
   - title: "A considered transition"
-    description: "An owner willing to share what they’ve learned and talk through what the business needs next."
+    items:
+      - "An owner willing to share what they’ve learned"
+      - "Talk through what the business needs next"
 buybox:
   - title: "Established local business"
     items:

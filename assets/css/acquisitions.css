@@ -2,7 +2,7 @@
 :root {
   color-scheme: light;
   --ink: #171717;
-  --body: #525252;
+  --body: #333333;
   --accent: #171717;
   --accent-hover: #383838;
   --line: #d7d7d7;
@@ -12,7 +12,7 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 2rem; }
-body { margin: 0; background: var(--white); color: var(--ink); font-family: var(--sans); font-size: 1rem; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+body { margin: 0; background: var(--white); color: var(--ink); font-family: var(--sans); font-size: 1.0625rem; line-height: 1.75; -webkit-font-smoothing: antialiased; }
 a { color: inherit; text-underline-offset: .25em; text-decoration-thickness: 1px; }
 a:hover { text-decoration-thickness: 2px; }
 a:focus-visible { outline: 3px solid var(--accent); outline-offset: 6px; border-radius: 2px; }
@@ -49,19 +49,18 @@ p { color: var(--body); }
 .portrait-name { font-weight: 600; font-size: 1.375rem; line-height: 1.3; letter-spacing: -.02em; }
 .portrait-location { display: flex; align-items: center; gap: .35rem; color: var(--body); font-size: .8125rem; }
 
-.section-intro { display: grid; grid-template-columns: 1fr 1fr; align-items: start; gap: 5rem; }
-.section-intro > p { max-width: 30rem; padding-top: .3rem; font-size: 1.0625rem; }
-.interests .section-intro { display: block; max-width: 44rem; }
-.interests .section-intro h2 { max-width: 24ch; }
-.interests .section-intro > p { max-width: 40rem; margin-top: 1.15rem; padding: 0; font-size: 1rem; }
+.section-intro { display: block; max-width: 44rem; }
+.section-intro h2 { max-width: 24ch; }
+.section-intro > p { max-width: 40rem; margin-top: 1.15rem; font-size: 1.0625rem; }
 .interest-types { display: grid; grid-template-columns: 1fr 1fr; gap: 3.5rem; margin-top: 2.5rem; padding-block: 1.75rem; border-block: 1px solid var(--line); }
 .interest-type h3 { font-size: 1.1875rem; }
 .interest-type p { margin-top: .65rem; max-width: 31rem; }
 .criteria { margin-top: 2.5rem; }
 .criteria-heading { font-size: 1.25rem; font-weight: 550; }
-.criteria-list { display: grid; grid-template-columns: 1fr 1fr; gap: 1.75rem 3.5rem; margin-top: 1.5rem; }
-.criterion dt { font-weight: 600; font-size: .9375rem; margin-bottom: .4rem; }
-.criterion dd { color: var(--body); font-size: .9375rem; }
+.criteria-list { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem 3.5rem; margin-top: 2rem; }
+.criterion h3 { font-size: 1.125rem; }
+.criterion ul { margin: .65rem 0 0; padding-left: 1.25rem; }
+.criterion li { margin-top: .45rem; color: var(--body); font-size: 1rem; }
 
 .buybox-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem 3.5rem; margin-top: 2.5rem; }
 .buybox-item h3 { font-size: 1.1875rem; }

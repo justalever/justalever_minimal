@@ -67,14 +67,18 @@
         </div>
         <div class="criteria">
           <h3 class="criteria-heading">A few things I look for</h3>
-          <dl class="criteria-list">
+          <div class="criteria-list">
             {{ range .Params.criteria }}
             <div class="criterion">
-              <dt>{{ .title }}</dt>
-              <dd>{{ .description }}</dd>
+              <h3>{{ .title }}</h3>
+              <ul>
+                {{ range .items }}
+                <li>{{ . }}</li>
+                {{ end }}
+              </ul>
             </div>
             {{ end }}
-          </dl>
+          </div>
         </div>
       </section>
 
