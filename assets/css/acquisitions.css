@@ -42,6 +42,7 @@ p { color: var(--body); }
 .hero-introduction { max-width: 33rem; font-size: 1.125rem; line-height: 1.7; margin-top: 1.75rem; }
 .button { display: inline-flex; justify-content: center; align-items: center; min-height: 3.25rem; margin-top: 2rem; padding: .8rem 1.35rem; border-radius: 5px; background: var(--accent); color: var(--white); text-decoration: none; font-size: .9375rem; font-weight: 550; transition: background .15s; }
 .button:hover { background: var(--accent-hover); }
+.hero-pdf { margin-top: 1rem; font-size: .875rem; }
 .hero-note { margin-top: .8rem; font-size: .8125rem; }
 .portrait { padding-top: 1.5rem; }
 .portrait img { display: block; width: 100%; height: auto; border-radius: 8px; object-fit: cover; object-position: center top; }

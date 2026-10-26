@@ -37,6 +37,7 @@
             <h1 id="hero-heading">{{ .Params.hero.heading }}</h1>
             <p class="hero-introduction">{{ .Params.hero.introduction }}</p>
             <a class="button" href="{{ $emailURL | safeURL }}">Tell me about your business</a>
+            <p class="hero-pdf"><a href="{{ "acquisitions-one-pager.pdf" | relURL }}">Download a one-page summary (PDF)</a></p>
             <p class="hero-note">A simple introduction is a good place to start.</p>
           </div>
           <figure class="portrait">
